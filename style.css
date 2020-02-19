@@ -1,0 +1,344 @@
+body,
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #666666;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: disc;
+    font-size: 17px;
+    line-height: 1.59;
+}
+
+a {
+    text-decoration: none;
+    color: #2f2f2f;
+}
+
+a:hover,
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 1.13;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+img {
+    border: none;
+    max-width: 100%;
+}
+
+.navbar-style {
+    display: block;
+    text-align: right;
+    width: 100%;
+}
+
+.navbar-style li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar-style li a {
+    color: #fefeff;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 9px 18px;
+    border-radius: 15px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.navbar-style li.active a,
+.navbar-style li a:hover,
+.navbar-style li a:focus {
+    background-color: #fff;
+}
+
+.navbar-style .dropdown-menu {
+    left: auto;
+    right: 0;
+}
+
+.navbar-style li .dropdown-menu a {
+    color: #444;
+    padding: 6px 15px;
+}
+
+.navbar-style {
+    display: flex;
+    text-align: left;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.navbar-style li {
+    margin-bottom: 10px;
+}
+
+.style-navbar2 .mu-logo {
+    color: #fff;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.style-navbar2 .mu-logo:hover,
+.style-navbar2 .mu-logo:focus {
+    color: #fff;
+}
+
+.style-navbar2 {
+    padding: 20px 0;
+}
+
+.style-navbar2 .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+.style-navbar2 {
+    padding: 10px 0;
+}
+
+.style-navbar2 .navbar-toggler {
+    padding: 5px 10px;
+}
+
+.mu-logo span {
+    display: inline-block;
+}
+
+.mu-logo img {
+    margin-top: -5px;
+}
+
+.mu-about-area {
+    float: left;
+    padding: 100px 0;
+    width: 100%;
+}
+
+.mu-about-area {
+    padding: 60px 0;
+}
+
+.mu-title {
+    float: left;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 35px;
+    padding: 0 25%;
+}
+
+.mu-title h2 {
+    color: #323232;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.mu-newsletter-area .mu-title h2 {
+    color: #fff;
+}
+
+.mu-newsletter-area .mu-title p {
+    color: #fff;
+}
+
+.mu-skills-area .mu-title h2,
+.mu-skills-area .mu-title p {
+    color: #fff;
+}
+
+.mu-error-area .mu-title {
+    margin-bottom: 0;
+}
+
+.mu-error-area .mu-title h2 {
+    font-size: 24px;
+}
+
+.mu-error-area .mu-title p {
+    font-size: 14px;
+    color: #323232;
+}
+
+.mu-error-area .mu-title {
+    padding: 0 15%;
+}
+
+.mu-title {
+    padding: 0 10%;
+}
+
+.mu-error-area .mu-title {
+    padding: 0 10%;
+}
+
+.mu-title {
+    padding: 0;
+}
+
+.mu-title-content {
+    padding: 0 10%;
+}
+
+.mu-title h2 {
+    font-size: 22px;
+}
+
+.mu-title h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.mu-title {
+    margin-bottom: 25px;
+}
+
+.mu-error-area .mu-title {
+    padding: 0;
+}
+
+.mu-about-right {
+    float: left;
+    padding-left: 15px;
+    width: 100%
+}
+
+.mu-about-right ul li {
+    list-style: none;
+    float: left;
+    margin-bottom: 25px;
+}
+
+.mu-about-right ul li h3 {
+    border-bottom: 3px solid #e5e5e5;
+    color: #323232;
+    font-size: 20px;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.mu-about-right p {
+    font-size: 14px;
+}
+
+.mu-about-right ul li {
+    margin-bottom: 10px;
+}
+
+.mu-about-right {
+    padding-left: 0;
+}
+
+.mu-about-right {
+    margin-top: 30px;
+}
+
+.mu-footer-bottom {
+    background-color: #004f7f;
+    padding: 20px 0;
+    float: left;
+    width: 100%;
+    margin-top: 135px;
+}
+
+.mu-footer-bottom-area {
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+.mu-copy-right {
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.mu-copy-right a {
+    color: #fff;
+    font-weight: 600;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#style-header {
+    background-color: #0091ea;
+    float: left;
+    width: 100%;
+}
+
+.style-regra {
+    margin-top: 8px;
+    background-color: #fff;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 9px 18px;
+    border-radius: 15px;
+}
+
+a:hover {
+    color: black;
+}
+
+.color-a {
+    color: #0091ea;
+}
+
+.fixar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.style-resposta {
+    margin-top: 200px;
+}
+
+.style-pergunta {
+    margin-bottom: 15px !important;
+    ;
+}
