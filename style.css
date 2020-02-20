@@ -339,6 +339,13 @@ a:hover {
 }
 
 .style-pergunta {
-    margin-bottom: 15px !important;
-    ;
+    height: 81px !important;
+    margin-top: -50px;
+    margin-bottom: 75px;
+}
+
+.paginacao {
+    margin-left: 1260px;
+    margin-top: 65px !important;
+    list-style: none !important;
 }
