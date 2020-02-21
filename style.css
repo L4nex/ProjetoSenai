@@ -13,10 +13,10 @@ body {
 ul {
     padding: 0;
     margin: 0;
+    list-style: none !important;
 }
 
 ul li {
-    list-style: disc;
     font-size: 17px;
     line-height: 1.59;
 }
@@ -69,7 +69,7 @@ img {
 }
 
 .navbar-style li {
-    list-style: none;
+    list-style: none !important;
     display: inline-block;
 }
 
@@ -347,5 +347,5 @@ a:hover {
 .paginacao {
     margin-left: 1260px;
     margin-top: 65px !important;
-    list-style: none !important;
+    list-style: none;
 }
