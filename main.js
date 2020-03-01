@@ -1,22 +1,38 @@
-localStorage.setItem("key_da_propriedade", "Valor armazenado");
-
-const minha_propriedade = localStorage.getItem('key_da_propriedade');
-// alert("Valor:" + minha_propriedade);
-
 $(document).ready(function() {
-    $(".click").click(function() {
-        $(".click")
-            .removeClass("alert-primary");
-        $(this)
-            .addClass("alert-success");
-    });
-});
+    var pagina = document.location.href
+    var array_selecionado = JSON.parse(localStorage.getItem(pagina));
+    if (array_selecionado == null) {
+        array_selecionado = []
+    }
+    $(".correta").click(function() {
+        if (array_selecionado.length == 0) {
+            $(".correta")
+                .removeClass("alert-primary");
+            $(this)
+                .addClass("alert-success");
 
-$(document).ready(function() {
-    $(".click2").click(function() {
-        $(".click2")
-            .removeClass("alert-primary");
-        $(this)
-            .addClass("alert-danger");
+            registro_selecionado = { id: "#" + $(this)[0].id, classe: "alert-success" }
+            array_selecionado.push(registro_selecionado)
+            localStorage.setItem(pagina, JSON.stringify(array_selecionado));
+        }
     });
+
+    $(".incorreta").click(function() {
+        if (array_selecionado.length == 0) {
+            $(".incorreta")
+                .removeClass("alert-primary");
+            $(this)
+                .addClass("alert-danger");
+
+            registro_selecionado = { id: "#" + $(this)[0].id, classe: "alert-danger" }
+            array_selecionado.push(registro_selecionado)
+            localStorage.setItem(pagina, JSON.stringify(array_selecionado));
+        }
+    });
+    if (array_selecionado) {
+        $(array_selecionado).each(function(x, obj) {
+            $(obj.id)
+                .addClass(obj.classe);
+        });
+    }
 });
