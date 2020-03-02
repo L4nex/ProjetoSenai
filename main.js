@@ -14,6 +14,7 @@ $(document).ready(function() {
             registro_selecionado = { id: "#" + $(this)[0].id, classe: "alert-success" }
             array_selecionado.push(registro_selecionado)
             localStorage.setItem(pagina, JSON.stringify(array_selecionado));
+            contarPontos();
         }
     });
 
@@ -36,3 +37,15 @@ $(document).ready(function() {
         });
     }
 });
+
+function contarPontos() {
+    if (!localStorage.pontos) {
+        localStorage.pontos = 0;
+    }
+    localStorage.pontos = parseInt(localStorage.getItem("pontos")) + 10;
+}
+
+function jogarNovamente() {
+    localStorage.clear();
+    window.location.href = "quiz.html";
+}
