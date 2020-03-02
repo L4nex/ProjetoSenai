@@ -43,6 +43,7 @@ function contarPontos() {
         localStorage.pontos = 0;
     }
     localStorage.pontos = parseInt(localStorage.getItem("pontos")) + 10;
+    document.getElementById("contarPontos").innerHTML = localStorage.pontos;
 }
 
 function jogarNovamente() {

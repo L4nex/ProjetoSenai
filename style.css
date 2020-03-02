@@ -344,9 +344,21 @@ a:hover {
     margin-bottom: 75px;
 }
 
+.style-pergunta8 {
+    height: 98px !important;
+    margin-top: -50px;
+    margin-bottom: 75px;
+}
+
 .paginacao {
     margin-left: 1260px;
     margin-top: 65px !important;
+    list-style: none;
+}
+
+.paginacao8 {
+    margin-left: 1260px;
+    margin-top: 48px !important;
     list-style: none;
 }
 
@@ -376,4 +388,9 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+}
+
+#contarPontos {
+    border: solid 1px;
+    height: 30px;
 }
